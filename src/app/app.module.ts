@@ -9,6 +9,7 @@ import { AboutStudioComponent } from './about-studio/about-studio.component';
 import { OfferComponent } from './offer/offer.component';
 import { ServicesComponent } from './services/services.component';
 import { GellaryComponent } from './gellary/gellary.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { GellaryComponent } from './gellary/gellary.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

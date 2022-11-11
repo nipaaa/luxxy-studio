@@ -1,3 +1,74 @@
-.gellary{
+.gallery1Bg{
+    background-image: url("../../assets/gellary1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 500px;
+    border: 8px solid white;
+    position: relative;
+}
+.gallery2Bg{
+    background-image: url("../../assets/gellary2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    border: 8px solid white;
+    position: relative;
+}
+.gallery3Bg{
+    background-image: url("../../assets/gellaery3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    border: 8px solid white;
+    position: relative;
+}
+.gallery4Bg{
+    background-image: url("../../assets/gellary4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    border: 8px solid white;
+    position: relative;
+}
+
+
+.gallery__content{
+    display: none;
+    position: absolute;
+    bottom: 3vh;
+    left: 1vw;
+}
+
+.gallery1Bg:hover{
+    background-color: rgba(0, 0, 0, 0.405);
+    background-blend-mode: overlay;
+}
+.gallery2Bg:hover{
+    background-color: rgba(0, 0, 0, 0.405);
+    background-blend-mode: overlay;
+}
+.gallery3Bg:hover{
+    background-color: rgba(0, 0, 0, 0.405);
+    background-blend-mode: overlay;
+}
+.gallery4Bg:hover{
+    background-color: rgba(0, 0, 0, 0.405);
+    background-blend-mode: overlay;
+}
+
+.gallery1Bg:hover .gallery__content{
+    display: block;
+}
+.gallery2Bg:hover .gallery__content{
+    display: block;
+}
+.gallery3Bg:hover .gallery__content{
+    display: block;
+}
+.gallery4Bg:hover .gallery__content{
+    display: block;
 }
