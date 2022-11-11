@@ -14,6 +14,7 @@ import { BestProjectComponent } from './best-project/best-project.component';
 import { FooterComponent } from './footer/footer.component';
 import { TrustedCompanyComponent } from './trusted-company/trusted-company.component';
 import { OurNewsComponent } from './our-news/our-news.component';
+import { RealInteriorComponent } from './real-interior/real-interior.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { OurNewsComponent } from './our-news/our-news.component';
     BestProjectComponent,
     FooterComponent,
     TrustedCompanyComponent,
-    OurNewsComponent
+    OurNewsComponent,
+    RealInteriorComponent
   ],
   imports: [
     BrowserModule,
