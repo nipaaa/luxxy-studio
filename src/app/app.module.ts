@@ -13,6 +13,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BestProjectComponent } from './best-project/best-project.component';
 import { FooterComponent } from './footer/footer.component';
 import { TrustedCompanyComponent } from './trusted-company/trusted-company.component';
+import { OurNewsComponent } from './our-news/our-news.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { TrustedCompanyComponent } from './trusted-company/trusted-company.compo
     GellaryComponent,
     BestProjectComponent,
     FooterComponent,
-    TrustedCompanyComponent
+    TrustedCompanyComponent,
+    OurNewsComponent
   ],
   imports: [
     BrowserModule,
