@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faYoutube,faFacebook, faTwitter,faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { faFaceAngry } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
@@ -11,9 +11,9 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 faYoutube = faYoutube;
-// faFacebook = faFacebook;
-// faTwiter = faTwiter;
-// faGoogle = this.faGoogle;
+faFacebook = faFacebook;
+faTwitter = faTwitter;
+faGoogle = faGoogle;
   ngOnInit(): void {
   }
 

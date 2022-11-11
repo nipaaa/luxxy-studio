@@ -11,6 +11,8 @@ import { ServicesComponent } from './services/services.component';
 import { GellaryComponent } from './gellary/gellary.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BestProjectComponent } from './best-project/best-project.component';
+import { FooterComponent } from './footer/footer.component';
+import { TrustedCompanyComponent } from './trusted-company/trusted-company.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { BestProjectComponent } from './best-project/best-project.component';
     OfferComponent,
     ServicesComponent,
     GellaryComponent,
-    BestProjectComponent
+    BestProjectComponent,
+    FooterComponent,
+    TrustedCompanyComponent
   ],
   imports: [
     BrowserModule,
