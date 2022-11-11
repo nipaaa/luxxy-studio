@@ -1,0 +1,23 @@
+.best_project_bg {
+  background-image: url("../../assets//best-projects-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.best-img-Bg {
+  background-image: url("../../assets//serviceBg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.656);
+  background-blend-mode: overlay;
+  /* height: 30%; */
+  position: relative;
+}
+
+.best_img {
+  position: absolute;
+  width: 100%;
+  top: -205px;
+}

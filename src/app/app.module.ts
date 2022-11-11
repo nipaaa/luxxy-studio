@@ -10,6 +10,7 @@ import { OfferComponent } from './offer/offer.component';
 import { ServicesComponent } from './services/services.component';
 import { GellaryComponent } from './gellary/gellary.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BestProjectComponent } from './best-project/best-project.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AboutStudioComponent,
     OfferComponent,
     ServicesComponent,
-    GellaryComponent
+    GellaryComponent,
+    BestProjectComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,8 @@
+.serviceBg{
+    background-image: url("../../assets//serviceBg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.656);
+    background-blend-mode: overlay;
+}
