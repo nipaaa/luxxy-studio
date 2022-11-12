@@ -1,7 +1,7 @@
 
 <!-- header initial part -->
 
-<div class="bg-black text-white py-2">
+<div class="bg-black hidden lg:block text-white py-2">
   <div class="container mx-auto">
     <div class="flex justify-between">
       <div class="flex flex-col md:flex-row">
@@ -31,20 +31,28 @@
 
 <!-- header main part -->
 
-<div class="container mx-auto py-3">
-    <div class="navbar bg-base-100">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <label tabindex="0" class="btn btn-ghost lg:hidden">
+<div class="container mx-auto py-3 p-5">
+    <div class="navbar justify-between bg-base-100">
+       
+          <div>
+            <a routerLink="/" class="normal-case text-xl"><img src="../../assets/logo.png" alt=""></a>
+          </div>
+   
+
+
+
+          <div class="dropdown dropdown-left dropdown-bottom">
+            <label tabindex="0" class="btn btn-ghost md:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </label>
-            <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+
+            <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-36">
               <li tabindex="0">
-                <a class="hover:border-b-4  hover:border-black hover:bg-white">
+                <a class=" hover:border-b-4  hover:border-black hover:bg-white">
                   Home 
                   <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
                 </a>
-                <ul class="p-2 bg-white">
+                <ul class=" bg-white w-36">
                   <li><a>Home Interior</a></li>
                   <li><a>Home Architecture</a></li>
                   <li><a>Home Studio</a></li>  
@@ -55,7 +63,7 @@
                   Studio
                   <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
                 </a>
-                <ul class="p-2  bg-white">
+                <ul class="p-2  bg-white w-36">
                   <li><a>About Studio</a></li>
                   <li><a>Why Choose Us</a></li>
                   <li><a>Our Service</a></li>  
@@ -66,7 +74,7 @@
                   Projects
                   <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
                 </a>
-                <ul class="p-2 bg-white">
+                <ul class="p-2 bg-white w-36">
                   <li><a>Projects 1</a></li>
                   <li><a>Projects 2</a></li>
                   <li><a>Projects Details</a></li>
@@ -78,7 +86,7 @@
                   Page
                   <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
                 </a>
-                <ul class="p-2 bg-white">
+                <ul class="p-2 bg-white w-36">
                   <li><a>Portfolio 1</a></li>
                   <li><a>Portfolio 2</a></li>
                   <li><a>Our Team</a></li>
@@ -93,7 +101,7 @@
                   Our News
                   <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
                 </a>
-                <ul class="p-2 bg-white">
+                <ul class="p-2 bg-white w-36">
                   <li><a>Archive</a></li>
                   <li><a>Single Post</a></li>
                   
@@ -107,8 +115,11 @@
     
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl"><img src="../../assets/logo.png" alt=""></a>
-        </div>
+
+
+     
+
+
         <div class="navbar-end hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
     
@@ -130,7 +141,7 @@
                   <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
                 </a>
                 <ul class="p-2  bg-white">
-                  <li><a>About Studio</a></li>
+                  <li><a routerLink="/aboutStudio">About Studio</a></li>
                   <li><a>Why Choose Us</a></li>
                   <li><a>Our Service</a></li>  
                 </ul>
@@ -183,3 +194,5 @@
       </div>
     
 </div>
+
+<router-outlet></router-outlet>
