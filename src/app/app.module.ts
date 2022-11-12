@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { TrustedCompanyComponent } from './trusted-company/trusted-company.component';
 import { OurNewsComponent } from './our-news/our-news.component';
 import { RealInteriorComponent } from './real-interior/real-interior.component';
+import { HeroFormComponent } from './hero-form/hero-form.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { RealInteriorComponent } from './real-interior/real-interior.component';
     FooterComponent,
     TrustedCompanyComponent,
     OurNewsComponent,
-    RealInteriorComponent
+    RealInteriorComponent,
+    HeroFormComponent
   ],
   imports: [
     BrowserModule,
