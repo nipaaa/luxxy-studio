@@ -1,3 +1,4 @@
+import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./offer.component.css']
 })
 export class OfferComponent implements OnInit {
-
+  faPlay = faPlayCircle
   constructor() { }
 
   ngOnInit(): void {
